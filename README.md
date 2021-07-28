@@ -46,7 +46,6 @@ module "kiali_operator" {
 | helm\_chart\_version | Kiali operator Helm chart version. | `string` | `"1.37.0"` | no |
 | mod\_dependency | Dependence variable binds all AWS resources allocated by this module, dependent modules reference this variable. | `any` | `null` | no |
 | namespace | Kubernetes namespace to deploy Kiali operator Helm chart. | `string` | `"kiali-operator"` | no |
-| service\_account\_name | External Secrets service account name | `string` | `"kiali-operator"` | no |
 | settings | Additional settings which will be passed to the Helm chart values. | `map` | `{}` | no |
 
 ## Outputs
