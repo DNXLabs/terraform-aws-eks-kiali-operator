@@ -4,12 +4,6 @@ variable "enabled" {
   description = "Variable indicating whether deployment is enabled."
 }
 
-variable "service_account_name" {
-  type        = string
-  default     = "kiali-operator"
-  description = "External Secrets service account name"
-}
-
 variable "helm_chart_name" {
   type        = string
   default     = "kiali-operator"
